@@ -39,7 +39,7 @@ public class CatalogService {
   private final ProductMapper productMapper;
 
   public CatalogService(CategoryMapper categoryMapper, ItemMapper itemMapper, ProductMapper productMapper) {
-    this.categoryMapper = categoryMapper;
+    this.categoryMappers = categoryMapper;
     this.itemMapper = itemMapper;
     this.productMapper = productMapper;
   }
